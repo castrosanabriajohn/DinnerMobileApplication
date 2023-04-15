@@ -47,6 +47,6 @@ public class AuthenticationController : ControllerBase
             Email: authenticationResponseFromService.Email,
             Token: authenticationResponseFromService.Token);
 
-        return Ok(request);
+        return Ok(value: response);
     }
 }
